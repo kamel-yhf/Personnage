@@ -75,3 +75,6 @@ public function setSante(int $sante){
 
     }
 }
+
+// $perso = new Personnage("kamel", 100, 100);
+// echo $perso->getNom() . ' niveau de santé ' . $perso->getSante() . '% et ' . $perso->getForce() . '% de force';
