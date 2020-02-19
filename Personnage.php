@@ -20,16 +20,42 @@ class Personnage{
  * return $force
  * type: integer
  */
-public function getForce(){
-    return $this->force;
-}
+    public function getForce(){
+        return $this->force;
+    }
 
 /**
  * return $sante
  * type: integer
  */
-public function getSante(){
-    return $this->sante;
+    public function getSante(){
+        return $this->sante;
+    }
+
+//SETTER
+
+/**
+ * set value $nom
+ * type: string
+ */
+    public function setNom($nom){
+        $this->nom = $nom;
+    }
+
+/**
+ * set value $force
+ * type: integer
+ */
+    public function setForce($force){
+        $this->force = $force;
+    }
+
+/**
+ * set value $sante
+ * type: integer
+ */
+public function setSante($sante){
+    $this->sante = $sante;
 }
 
 
