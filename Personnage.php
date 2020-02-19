@@ -78,7 +78,7 @@ public function setSante(int $sante){
     }
 }
 
- $kamel = new Personnage("kamel", 100, 100);
- echo $kamel->getNom() . ' niveau de santé ' . $kamel->getSante() . '% et ' . $kamel->getForce() . '% de force';
- $kamel->seDeplacer($kamel);
- $kamel->parler($kamel);
+//  $kamel = new Personnage("kamel", 100, 100);
+//  echo $kamel->getNom() . ' niveau de santé ' . $kamel->getSante() . '% et ' . $kamel->getForce() . '% de force';
+//  $kamel->seDeplacer($kamel);
+//  $kamel->parler($kamel);
