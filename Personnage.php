@@ -38,7 +38,7 @@ class Personnage{
  * set value $nom
  * type: string
  */
-    public function setNom($nom){
+    public function setNom(string $nom){
         $this->nom = $nom;
     }
 
@@ -46,7 +46,7 @@ class Personnage{
  * set value $force
  * type: integer
  */
-    public function setForce($force){
+    public function setForce(int $force){
         $this->force = $force;
     }
 
@@ -54,7 +54,7 @@ class Personnage{
  * set value $sante
  * type: integer
  */
-public function setSante($sante){
+public function setSante(int $sante){
     $this->sante = $sante;
 }
 
