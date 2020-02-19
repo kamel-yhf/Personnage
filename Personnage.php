@@ -6,7 +6,15 @@ class Personnage{
     private $force;
     private $sante;
 
-//GETTER
+    public function __construct($nom, $force, $sante){
+        $this->setNom($nom);
+        $this->setForce($force);
+        $this->setSante($sante);
+    }
+
+
+
+// GETTER
 
 /**
  * return $nom
@@ -32,7 +40,7 @@ class Personnage{
         return $this->sante;
     }
 
-//SETTER
+// SETTER
 
 /**
  * set value $nom
@@ -58,6 +66,7 @@ public function setSante(int $sante){
     $this->sante = $sante;
 }
 
+// SPECIFIQUE METHODE
 
     public function seDeplacer(){
 
