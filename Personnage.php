@@ -68,13 +68,15 @@ public function setSante(int $sante){
 
 // SPECIFIQUE METHODE
 
-    public function seDeplacer(){
-
+    public function seDeplacer(Personnage $personnage) //$personnage de type class Personnage
+    {
+        echo "je suis $personnage->getNom() et je me déplace";
     }
-    public function parler(){
-
+    public function parler(Personnage $personnage) //$personnage de type class Personnage
+    {
+        echo "je suis $personnage->getNom() et je parle";
     }
 }
 
-// $perso = new Personnage("kamel", 100, 100);
-// echo $perso->getNom() . ' niveau de santé ' . $perso->getSante() . '% et ' . $perso->getForce() . '% de force';
+// $kamel = new Personnage("kamel", 100, 100);
+// echo $kamel->getNom() . ' niveau de santé ' . $kamel->getSante() . '% et ' . $kamel->getForce() . '% de force';
